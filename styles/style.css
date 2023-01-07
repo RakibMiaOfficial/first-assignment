@@ -15,7 +15,8 @@
 
 .header-title {
     padding-top: 220px;
-    margin-left: 1200px;
+    margin-left: 1070px;
+    text-align: right;
     width: 525px;
     height: 228px;
     font-weight: 700;
@@ -24,8 +25,9 @@
 }
 
 .header-description {
+    text-align: right;
     padding-top: 24px;
-    margin-left:1200px;
+    margin-left: 1100px;
     width: 494px;
     height: 78px;
     width: 494px;
@@ -35,9 +37,11 @@
 
 .contact-btn {
     margin-top: 32px;
-    margin-left: 1506px;
+    margin-left: 1432px;
     width: 160px;
     height: 64px;
+    font-size: 20px;
+    line-height: 23px;
     background: #FFFFFF;
     border-radius: 5px;
     border: 0;
@@ -46,7 +50,7 @@
 
 .contact-btn:hover {
     color: #FFFFFF;
-    background-color: #005FAC;
+    background-color: lightgray;
 }
 
 /* failure section styles */
@@ -54,6 +58,9 @@
 .failures-year {
     display: flex;
     align-items: center;
+    width: 1072px;
+    height: 723.3px;
+    margin: 135px 322px 0 206px;
 }
 
 .person-img {
@@ -63,9 +70,9 @@
 }
 
 .failure-title {
+    margin: 334px 450px 0 87px;
     width: 288px;
     height: 94px;
-    margin: 334px 0 0 87px;
     font-weight: 700;
     font-size: 40px;
     color: #151414;
@@ -83,4 +90,143 @@
     width: 349px;
     height: 162px;
     margin: 16px 0 0 87px;
+}
+
+/* section container style */
+
+.cointainer-title {
+    text-align: center;
+    font-weight: 700;
+    font-size: 40px;
+    margin-top: 130px;
+}
+
+.container-icon {
+    display: flex;
+    justify-content: center;
+    width: 1141px;
+    height: 202.96px;
+    margin-top: 50px;
+    margin-left: 350px;
+    gap: 120px;
+}
+
+.call-btn-title {
+    width: 1040px;
+    height: 300px;
+    background-image: url(/images/watch.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 130px;
+    margin-left: 450px;
+    margin-bottom: 260px;
+    border-radius: 8px;
+    background: linear-gradient(90deg, #005FAC 0%, rgba(0, 95, 172, 0) 100%);
+
+}
+
+.call-title {
+    padding-top: 59px;
+    margin-left: 64px;
+    width: 459px;
+    height: 94px;
+    font-weight: 700;
+    font-size: 40px;
+    color: #FFFFFF;
+}
+
+.call-btn {
+    width: 160px;
+    height: 64px;
+    margin: 20px 0 59px 64px;
+    border: 0;
+    background: #FFFFFF;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.call-btn:hover {
+    color: #005FAC;
+    background-color: lightgrey;
+}
+
+/* footer styles */
+footer {
+    display: flex;
+    text-align: center;
+    width: 2000px;
+    height: 577px;
+    background: #151414;
+}
+
+.contact-info {
+    color: #F8F8F8;
+
+}
+
+.contact-info h2 {
+    margin-top: 121px;
+    margin-left: 450px;
+    ;
+    width: 148px;
+    height: 51.84px;
+    font-weight: 700;
+    font-size: 45px;
+}
+
+.contact-info .info-description {
+    text-align: left;
+    width: 485px;
+    height: 76.29px;
+    font-weight: 400;
+    font-size: 16px;
+    margin: 16px 0 24px 453px
+}
+
+.info {
+    color: #F8F8F8;
+}
+
+.social-img {
+    text-align: left;
+    width: 186px;
+    height: 142.8px;
+    margin-top: 24px;
+    margin-left: 452px;
+}
+
+.sub-text {
+    width: 123px;
+    height: 29px;
+    margin-top: 125px;
+    margin-left: 455px;
+    font-weight: 600;
+    font-size: 25px;
+    color: #FFFFFF;
+}
+
+.email {
+    margin-top: 30px;
+    margin-left: 455px;
+    color: #FFFFFF;
+    background-color: #151414;
+    border: 1px solid #FFFFFF;
+    border-radius: 8px;
+    width: 325px;
+    height: 64px;
+}
+
+.subscribe-btn {
+    width: 170.11px;
+    height: 64px;
+    background: #005FAC;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #FFFFFF;
+}
+.subscribe-btn:hover{
+    color: #005FAC;
+    background-color: lightgrey;
 }
