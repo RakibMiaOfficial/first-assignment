@@ -220,13 +220,14 @@ footer {
 .subscribe-btn {
     width: 170.11px;
     height: 64px;
-    background: #005FAC;
-    border-radius: 8px;
     font-weight: 600;
     font-size: 20px;
     color: #FFFFFF;
+    background: #005FAC;
+    border-radius: 8px;
 }
-.subscribe-btn:hover{
+
+.subscribe-btn:hover {
     color: #005FAC;
     background-color: lightgrey;
 }
